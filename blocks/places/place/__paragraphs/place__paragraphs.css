@@ -1,0 +1,11 @@
+.place__paragraphs {
+    order:4;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+@media screen and (max-width: 375px) {
+    .place__paragraphs {
+        width: 91%;
+        margin: 21px auto 0px;
+    }
+}

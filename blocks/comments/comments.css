@@ -1,0 +1,24 @@
+@import './comment/comment.css';
+@import './__author/comment__author.css';
+@import './__container/comments__container.css';
+@import './__image/comment__image.css';
+@import './__quote/comment__quote.css';
+
+.comments {
+    width: 92.5%;
+    margin: 110px auto 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .comments {
+        width: 86%;
+        margin: 102px auto 0px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .comments {
+        width: 95%;
+        margin: 55px auto 0px;
+    }
+}

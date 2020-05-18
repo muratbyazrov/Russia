@@ -1,0 +1,26 @@
+.comments__container {
+    max-width: 100%;
+    margin: 63px auto 0px;
+    display: grid;
+    grid-template-columns: 32.26% 32.26% 32.26%;
+    grid-column-gap: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .comments__container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .comments__container {
+        margin: 45px auto 0px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .comments__container {
+        margin: 30px auto 0px;
+    }
+}

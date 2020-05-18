@@ -1,0 +1,22 @@
+.intro__content-row {
+    display: flex;
+    margin: 27px auto 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro__content-row {
+        margin: 27px auto 21px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .intro__content-row {
+        margin: 27px auto 5px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .intro__content-row {
+        margin: 27px auto 12px;
+    }
+}

@@ -1,0 +1,17 @@
+.comment {
+    margin: 0 auto 0;
+}
+
+@media screen and (max-width: 768px) {
+    .comment{ display: flex;
+    flex-direction: column;
+    margin-bottom: 47px;
+    width: 57.73%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .comment {
+    width: 96%;
+    }
+}

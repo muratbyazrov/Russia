@@ -1,0 +1,30 @@
+@import './__author/intro__author.css';
+@import './__content-row/intro__content-row.css';
+@import './__data/intro__data.css';
+@import './__subtitle/intro__subtitle.css';
+@import './__text/intro__text.css';
+@import './__title/intro__title.css';
+@import './__info/intro__info.css';
+@import '../text-accent/text-accent.css';
+.intro {
+    width: 77%;
+    margin:  0px auto 98px;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        width: 91%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        width: 93.75%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .intro {
+        margin: 0px auto 64px;
+    }
+}

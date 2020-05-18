@@ -1,0 +1,20 @@
+.place__website {
+    width: 484px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    order:2;
+}
+
+@media screen and (max-width: 640px) {
+    .place__website {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .place__website {
+        display: none;
+    }
+}

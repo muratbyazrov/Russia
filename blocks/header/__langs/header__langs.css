@@ -1,0 +1,15 @@
+@import './__lang/header__lang.css';
+@import './__lang/_status/header__lang_status_active.css';
+
+.header__langs {
+    display: flex;
+    width: 78px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 375px) {
+    .header__langs {
+        width: 68px;
+    }
+}

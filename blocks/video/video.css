@@ -1,0 +1,37 @@
+@import '../content-title/content-title.css';
+@import '../content-subtitle/content-subtitle.css';
+
+@import '../video/__container/video__container.css';
+@import './__item/video__item.css';
+
+@import '../video/__icon/video__icon.css';
+@import '../video/__image/video__image.css';
+@import '../video/__title/video__title.css';
+@import '../video/__subtitle/video__subtitle.css';
+@import '../video/__duration/video__duration.css';
+@import './__data/video__data.css';
+
+.video {
+    width: 92.5%;
+    margin: 105px auto 0px;
+}
+
+@media screen and (max-width: 1024px) {
+    .video {
+        width: 90.6%
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video {
+        width: 93.6%;
+        margin: 87px auto 0px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .video {
+        width: 93.6%;
+        margin: 50px auto 0px;
+    }
+}

@@ -1,0 +1,35 @@
+@import '../cover/__title/cover__title.css';
+@import '../cover/__subtitle/cover__subtitle.css';
+@import '../cover/__image/cover__image.css';
+.cover {
+    width: 92.5%;
+    padding-bottom: 46.41%;
+    position: relative;
+    margin: 98px auto 0px;
+    background: #2A2C2F;
+}
+
+.cover:hover .cover__image {
+    opacity: 0.3;
+    transition: opacity 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        padding-bottom: 54.9%;
+        width: 99.8%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        padding-bottom: 64.9%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .cover {
+        padding-bottom: 72%;
+        margin: 5px auto 0px;
+    }
+}
